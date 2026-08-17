@@ -149,9 +149,9 @@ The model and data cards, architecture rationale, and threat model are under [`d
 ## Engineering quality and security controls
 
 - Type hints, strict MyPy, Ruff lint/format, 25 tests, and **95.21% branch-aware coverage**.
-- Python 3.11/3.12 GitHub Actions matrix, deterministic full-training verification on the locked
-  Python 3.11 artifact-build runtime, and a container smoke test. Model metrics are stable across
-  the supported runtimes, while `joblib` bytes are verified only on the canonical build runtime.
+- Python 3.11/3.12 GitHub Actions matrix, full-training reproducibility verification, and a
+  container smoke test. Because `joblib` bytes can vary by platform, CI verifies each artifact's
+  SHA-256 separately and compares the model parameters, threshold, evidence, and sample data.
 - Strict request schemas, forbidden extra fields, positive/upper-bounded amounts, unique IDs, and a
   500-record request limit.
 - Payload contents are not logged; vendor IDs are pseudonymized with a configurable pepper.

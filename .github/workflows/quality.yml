@@ -30,9 +30,17 @@ jobs:
         run: uv run mypy src
       - run: uv run pytest
       - if: matrix.python-version == '3.11'
+        run: |
+          mkdir -p /tmp/faturaiz-reference/models
+          mkdir -p /tmp/faturaiz-reference/reports
+          mkdir -p /tmp/faturaiz-reference/data/samples
+          cp models/model.joblib models/manifest.json /tmp/faturaiz-reference/models/
+          cp reports/evaluation.json reports/data_quality.json /tmp/faturaiz-reference/reports/
+          cp data/samples/synthetic_invoices.csv /tmp/faturaiz-reference/data/samples/
+      - if: matrix.python-version == '3.11'
         run: uv run faturaiz train
       - if: matrix.python-version == '3.11'
-        run: git diff --exit-code -- reports models data/samples
+        run: uv run python scripts/verify_reproducibility.py /tmp/faturaiz-reference .
 
   container-smoke:
     name: container-smoke
