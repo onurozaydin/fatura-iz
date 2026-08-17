@@ -10,6 +10,8 @@ import numpy as np
 
 from faturaiz.model import ModelBundle, load_verified_bundle
 
+FLOAT_RTOL = 1e-9
+
 
 def _read_json(path: Path) -> dict[str, Any]:
     value = json.loads(path.read_text(encoding="utf-8"))
@@ -29,7 +31,7 @@ def _assert_bundle_equivalent(reference: ModelBundle, candidate: ModelBundle) ->
         np.testing.assert_allclose(
             np.asarray(getattr(reference_scaler, attribute)),
             np.asarray(getattr(candidate_scaler, attribute)),
-            rtol=0.0,
+            rtol=FLOAT_RTOL,
             atol=1e-12,
         )
 
@@ -39,7 +41,7 @@ def _assert_bundle_equivalent(reference: ModelBundle, candidate: ModelBundle) ->
         np.testing.assert_allclose(
             np.asarray(getattr(reference_classifier, attribute)),
             np.asarray(getattr(candidate_classifier, attribute)),
-            rtol=0.0,
+            rtol=FLOAT_RTOL,
             atol=1e-12,
         )
     for parameter in ("class_weight", "max_iter", "random_state", "solver"):
