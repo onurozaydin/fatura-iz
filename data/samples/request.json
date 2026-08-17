@@ -1,0 +1,27 @@
+{
+  "invoices": [
+    {
+      "invoice_id": "DEMO-001",
+      "vendor_account_id": "SUP-DEMO-12",
+      "invoice_number": "INV-2026-0042",
+      "invoice_date": "2026-08-01",
+      "amount": "18750.00",
+      "currency": "TRY",
+      "po_number": "PO-4401",
+      "bank_fingerprint": "BANK-TOKEN-12",
+      "description": "equipment preventive maintenance"
+    },
+    {
+      "invoice_id": "DEMO-002",
+      "vendor_account_id": "SUP-DEMO-12",
+      "invoice_number": "inv20260042",
+      "invoice_date": "2026-08-04",
+      "amount": "18750.00",
+      "currency": "TRY",
+      "po_number": "PO-4401",
+      "bank_fingerprint": "BANK-TOKEN-12",
+      "description": "equipment preventive maintenance"
+    }
+  ]
+}
+

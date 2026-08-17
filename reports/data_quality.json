@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "rows": 4204,
+  "unique_invoice_ids": 4204,
+  "null_cells": 0,
+  "non_positive_amounts": 0,
+  "date_min": "2024-01-01",
+  "date_max": "2025-09-17",
+  "duplicate_groups": 604,
+  "candidate_recall": {
+    "train": 1.0,
+    "validation": 1.0,
+    "test": 1.0
+  }
+}

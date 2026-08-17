@@ -1,0 +1,19 @@
+[project]
+seed = 20260817
+synthetic_base_invoices = 3600
+synthetic_duplicate_rate = 0.16
+
+[candidates]
+max_date_gap_days = 60
+max_amount_relative_gap = 0.05
+min_invoice_similarity = 0.55
+
+[model]
+min_validation_precision = 0.80
+false_positive_review_cost_try = 50.0
+
+[service]
+max_batch_size = 500
+artifact_path = "models/model.joblib"
+manifest_path = "models/manifest.json"
+
