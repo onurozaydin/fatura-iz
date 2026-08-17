@@ -1,0 +1,63 @@
+name: quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: quality (${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install uv==0.11.33
+      - run: uv sync --frozen --extra dev
+      - run: uv run ruff format --check src tests
+      - run: uv run ruff check src tests
+      - if: matrix.python-version == '3.12'
+        run: uv run mypy src
+      - run: uv run pytest
+      - run: uv run faturaiz train
+      - run: git diff --exit-code -- reports models data/samples
+
+  container-smoke:
+    name: container-smoke
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t faturaiz:test .
+      - run: >-
+          docker run --detach --name faturaiz
+          --read-only --tmpfs /tmp --cap-drop ALL
+          --publish 8000:8000 faturaiz:test
+      - run: |
+          python - <<'PY'
+          import json
+          import time
+          import urllib.request
+
+          for _ in range(30):
+              try:
+                  with urllib.request.urlopen("http://127.0.0.1:8000/health", timeout=2) as response:
+                      body = json.load(response)
+                  assert body["status"] == "ok"
+                  break
+              except Exception:
+                  time.sleep(1)
+          else:
+              raise SystemExit("container health check did not become ready")
+          PY
+      - if: always()
+        run: docker logs faturaiz || true

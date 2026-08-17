@@ -1,0 +1,17 @@
+{
+  "artifact": "model.joblib",
+  "sha256": "9e9e01506f8991ebacc4a81c637b818672eed366a90c1c7c7badee1a0b54c1c8",
+  "feature_names": [
+    "vendor_same",
+    "bank_same",
+    "currency_same",
+    "invoice_similarity",
+    "digit_similarity",
+    "amount_relative_similarity",
+    "date_proximity",
+    "po_same",
+    "description_similarity"
+  ],
+  "threshold": 0.9049999999999999,
+  "synthetic_training_data": true
+}

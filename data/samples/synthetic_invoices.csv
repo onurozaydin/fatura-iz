@@ -1,0 +1,121 @@
+invoice_id,vendor_account_id,invoice_number,invoice_date,amount,currency,po_number,bank_fingerprint,description,is_duplicate_record,duplicate_type
+F-000390,SUP-0003,INV-0003-000390,2024-01-02,6273.04,TRY,PO-00277,BANK-0003-3,software subscription renewal,False,original
+F-000906,SUP-0196,INV-0196-000906,2024-01-03,3771.32,TRY,PO-00206,BANK-0196-0,facility cleaning service,False,original
+F-001652,SUP-0168,INV-0168-001652,2024-01-03,1240.26,TRY,PO-00570,BANK-0168-0,professional consulting hours,False,original
+F-002120,SUP-0019,INV-0019-002120,2024-01-03,1849.22,TRY,PO-00873,BANK-0019-5,office supplies delivery,False,original
+F-003128,SUP-0174,INV-0174-003128,2024-01-03,3312.86,TRY,PO-00592,BANK-0174-6,professional consulting hours,False,original
+F-003304,SUP-0068,INV-0068-003304,2024-01-03,1660.3,TRY,,BANK-0068-5,office supplies delivery,False,original
+F-000390-D,SUP-0003,INV-0003-000390,2024-01-04,6273.04,TRY,PO-00277,BANK-0003-3,software subscription renewal,True,exact
+F-000400,SUP-0094,INV-0094-000400,2024-01-05,750.0,TRY,PO-00244,BANK-0094-3,cloud hosting monthly service,False,original
+F-000837,SUP-0033,INV-0033-000837,2024-01-05,2257.64,TRY,PO-00110,BANK-0033-5,software subscription renewal,False,original
+F-003589,SUP-0171,INV-0171-003589,2024-01-05,2500.0,TRY,PO-00310,BANK-0171-3,packaging material purchase,False,original
+F-000262,SUP-0074,INV-0074-000262,2024-01-06,3437.93,TRY,PO-00184,BANK-0074-4,cloud hosting monthly service,False,original
+F-003499,SUP-0129,INV-0129-003499,2024-01-06,500.0,TRY,,BANK-0129-3,facility cleaning service,False,original
+F-002377,SUP-0033,INV-0033-002377,2024-01-09,753.48,TRY,PO-00697,BANK-0033-5,software subscription renewal,False,original
+F-001527,SUP-0004,INV-0004-001527,2024-01-11,483.64,TRY,PO-00710,BANK-0004-4,equipment preventive maintenance,False,original
+F-000963,SUP-0048,INV-0048-000963,2024-01-12,2500.0,TRY,PO-00477,BANK-0048-6,freight and logistics service,False,original
+F-001211,SUP-0143,INV-0143-001211,2024-01-13,4000.0,TRY,PO-00136,BANK-0143-3,professional consulting hours,False,original
+F-001611,SUP-0102,INV-0102-001611,2024-01-13,1420.03,TRY,PO-00785,BANK-0102-4,equipment preventive maintenance,False,original
+F-000400-D,SUP-0094,DOC-0094-8722,2024-01-14,769.09,TRY,,BANK-0094-3,cloud hosting monthly service,True,weak_resubmission
+F-000436,SUP-0021,INV-0021-000436,2024-01-15,313.98,TRY,PO-00491,BANK-0021-0,freight and logistics service,False,original
+F-000837-D,SUP-0033,I NV-0033-000837,2024-01-15,2286.12,TRY,PO-00110,BANK-0033-5,software subscription renewal,True,amount_shift
+F-000906-D,SUP-0196,INV-0196-000906,2024-01-15,3771.32,TRY,PO-00206,BANK-0196-0,facility cleaning service,True,exact
+F-002878,SUP-0097,INV-0097-002878,2024-01-15,893.19,TRY,PO-00225,BANK-0097-6,equipment preventive maintenance,False,original
+F-003304-D,SUP-0068,I NV-0068-003304,2024-01-15,1660.3,TRY,,BANK-0068-5,office supplies delivery,True,format_shift
+F-001517,SUP-0184,INV-0184-001517,2024-01-16,4500.0,TRY,PO-00745,BANK-0184-2,equipment preventive maintenance,False,original
+F-002523,SUP-0079,INV-0079-002523,2024-01-16,1070.35,TRY,PO-00152,BANK-0079-2,software subscription renewal,False,original
+F-001517-D,SUP-0184,INV-0184-001517,2024-01-17,4500.0,TRY,PO-00745,BANK-0184-2,equipment preventive maintenance,True,exact
+F-002240,SUP-0080,INV-0080-002240,2024-01-17,2500.0,TRY,,BANK-0080-3,office supplies delivery,False,original
+F-002866,SUP-0141,INV-0141-002866,2024-01-19,1762.2,TRY,PO-00843,BANK-0141-1,software subscription renewal,False,original
+F-000041,SUP-0143,INV-0143-000041,2024-01-20,1177.66,TRY,PO-00657,BANK-0143-3,cloud hosting monthly service,False,original
+F-001568,SUP-0170,INV-0170-001568,2024-01-20,1031.81,TRY,PO-00309,BANK-0170-2,office supplies delivery,False,original
+F-001652-D,SUP-0168,inv-0168-001652,2024-01-20,1240.26,TRY,PO-00570,BANK-0168-0,professional consulting hours,True,format_shift
+F-002120-D,SUP-0019,INV0019002120,2024-01-20,1849.22,TRY,PO-00873,BANK-0019-5,office supplies delivery,True,format_shift
+F-002321,SUP-0037,INV-0037-002321,2024-01-20,2017.46,TRY,PO-00526,BANK-0037-2,office supplies delivery,False,original
+F-003128-D,SUP-0174,I NV-0174-003128,2024-01-20,3312.86,TRY,PO-00592,BANK-0174-6,professional consulting hours,True,format_shift
+F-001181,SUP-0013,INV-0013-001181,2024-01-21,3250.0,TRY,PO-00545,BANK-0013-6,equipment preventive maintenance,False,original
+F-003424,SUP-0089,INV-0089-003424,2024-01-21,3322.35,TRY,PO-00757,BANK-0089-5,facility cleaning service,False,original
+F-002377-D,SUP-0033,INV-0033-002377,2024-01-22,753.48,TRY,PO-00697,BANK-0033-5,software subscription renewal,True,exact
+F-002878-D,SUP-0097,INV-0097-002878-R,2024-01-22,879.83,TRY,PO-00225,BANK-0097-6,equipment preventive maintenance,True,amount_shift
+F-003589-D,SUP-0171,inv-0171-003589,2024-01-22,2520.38,TRY,PO-00310,BANK-0171-3,packaging material purchase,True,amount_shift
+F-001049,SUP-0160,INV-0160-001049,2024-01-23,2286.33,TRY,,BANK-0160-6,equipment preventive maintenance,False,original
+F-000436-D,SUP-0021,INV0021000436,2024-01-24,313.98,TRY,PO-00491,BANK-0021-0,freight and logistics service,True,format_shift
+F-001211-D,SUP-0143,DOC-0143-7745,2024-01-24,4054.57,TRY,,BANK-0143-3,professional consulting hours,True,weak_resubmission
+F-003499-D,SUP-0129,I NV-0129-003499,2024-01-24,500.0,TRY,,BANK-0129-3,facility cleaning service,True,format_shift
+F-002866-D,SUP-0141,inv-0141-002866,2024-01-25,1762.2,TRY,PO-00843,BANK-0141-1,software subscription renewal,True,format_shift
+F-001527-D,SUP-0004,INV-0004-001527,2024-01-26,483.64,TRY,PO-00710,BANK-0004-4,equipment preventive maintenance,True,exact
+F-001611-D,SUP-0102,INV0102001611,2024-01-26,1410.16,TRY,,BANK-0102-4,equipment preventive maintenance,True,amount_shift
+F-002212,SUP-0055,INV-0055-002212,2024-01-26,2083.37,TRY,PO-00792,BANK-0055-6,equipment preventive maintenance,False,original
+F-000262-D,SUP-0074,INV-0074-000262,2024-01-27,3437.93,TRY,PO-00184,BANK-0074-4,cloud hosting monthly service,True,exact
+F-003068,SUP-0162,INV-0162-003068,2024-01-27,1049.5,TRY,,BANK-0162-1,equipment preventive maintenance,False,original
+F-000041-D,SUP-0143,DOC-0143-5164,2024-01-28,1188.65,TRY,,BANK-0143-3,cloud hosting monthly service,True,weak_resubmission
+F-000963-D,SUP-0048,INV0048000963,2024-01-28,2490.05,TRY,PO-00477,BANK-0048-6,freight and logistics service,True,amount_shift
+F-003424-D,SUP-0089,INV0089003424,2024-01-28,3279.13,TRY,,BANK-0089-5,facility cleaning service,True,amount_shift
+F-000422,SUP-0094,INV-0094-000422,2024-01-29,750.0,TRY,PO-00244,BANK-0094-3,cloud hosting monthly service,False,original
+F-001181-D,SUP-0013,INV-0013-001181-R,2024-01-30,3220.22,TRY,PO-00545,BANK-0013-6,equipment preventive maintenance,True,amount_shift
+F-001075,SUP-0132,INV-0132-001075,2024-01-31,2856.39,TRY,,BANK-0132-6,professional consulting hours,False,original
+F-003068-D,SUP-0162,INV-0162-003068,2024-01-31,1049.5,TRY,,BANK-0162-1,equipment preventive maintenance,True,exact
+F-003171,SUP-0194,INV-0194-003171,2024-01-31,3308.39,TRY,PO-00331,BANK-0194-5,facility cleaning service,False,original
+F-000422-D,SUP-0094,INV-0094-000422-R,2024-02-01,750.0,TRY,PO-00244,BANK-0094-3,cloud hosting monthly service,True,format_shift
+F-001087,SUP-0160,INV-0160-001087,2024-02-01,4750.0,TRY,PO-00171,BANK-0160-6,software subscription renewal,False,original
+F-003282,SUP-0088,INV-0088-003282,2024-02-01,1060.83,TRY,PO-00722,BANK-0088-4,professional consulting hours,False,original
+F-000419,SUP-0183,INV-0183-000419,2024-01-01,1152.95,TRY,PO-00614,BANK-0183-1,equipment preventive maintenance,False,original
+F-002266,SUP-0003,INV-0003-002266,2024-01-01,3750.0,TRY,PO-00857,BANK-0003-3,cloud hosting monthly service,False,original
+F-002745,SUP-0068,INV-0068-002745,2024-01-01,949.69,TRY,PO-00408,BANK-0068-5,cloud hosting monthly service,False,original
+F-002933,SUP-0095,INV-0095-002933,2024-01-01,259.95,TRY,PO-00704,BANK-0095-4,packaging material purchase,False,original
+F-003475,SUP-0037,INV-0037-003475,2024-01-01,524.1,TRY,PO-00815,BANK-0037-2,freight and logistics service,False,original
+F-000177,SUP-0126,INV-0126-000177,2024-01-02,2352.01,TRY,PO-00884,BANK-0126-0,equipment preventive maintenance,False,original
+F-000339,SUP-0079,INV-0079-000339,2024-01-02,528.84,TRY,PO-00778,BANK-0079-2,equipment preventive maintenance,False,original
+F-003166,SUP-0194,INV-0194-003166,2024-01-02,1852.78,TRY,PO-00061,BANK-0194-5,facility cleaning service,False,original
+F-003439,SUP-0069,INV-0069-003439,2024-01-02,1131.97,TRY,PO-00143,BANK-0069-6,facility cleaning service,False,original
+F-000476,SUP-0108,INV-0108-000476,2024-01-03,1878.2,TRY,PO-00612,BANK-0108-3,professional consulting hours,False,original
+F-000579,SUP-0034,INV-0034-000579,2024-01-03,5013.77,TRY,PO-00745,BANK-0034-6,software subscription renewal,False,original
+F-001959,SUP-0013,INV-0013-001959,2024-01-03,1234.19,TRY,PO-00239,BANK-0013-6,office supplies delivery,False,original
+F-002787,SUP-0006,INV-0006-002787,2024-01-04,3384.34,TRY,PO-00894,BANK-0006-6,office supplies delivery,False,original
+F-003568,SUP-0158,INV-0158-003568,2024-01-04,4617.56,TRY,PO-00420,BANK-0158-4,office supplies delivery,False,original
+F-000039,SUP-0042,INV-0042-000039,2024-01-05,4500.0,TRY,,BANK-0042-0,freight and logistics service,False,original
+F-000799,SUP-0041,INV-0041-000799,2024-01-05,3095.67,TRY,PO-00083,BANK-0041-6,equipment preventive maintenance,False,original
+F-001818,SUP-0010,INV-0010-001818,2024-01-05,909.18,TRY,PO-00755,BANK-0010-3,cloud hosting monthly service,False,original
+F-002964,SUP-0151,INV-0151-002964,2024-01-05,2507.95,TRY,PO-00433,BANK-0151-4,freight and logistics service,False,original
+F-003457,SUP-0048,INV-0048-003457,2024-01-05,2500.0,TRY,PO-00463,BANK-0048-6,equipment preventive maintenance,False,original
+F-000742,SUP-0116,INV-0116-000742,2024-01-06,2975.06,TRY,PO-00366,BANK-0116-4,packaging material purchase,False,original
+F-000929,SUP-0020,INV-0020-000929,2024-01-06,2512.18,TRY,PO-00528,BANK-0020-6,professional consulting hours,False,original
+F-001198,SUP-0155,INV-0155-001198,2024-01-06,3942.96,TRY,PO-00223,BANK-0155-1,office supplies delivery,False,original
+F-001713,SUP-0048,INV-0048-001713,2024-01-06,1304.64,TRY,PO-00895,BANK-0048-6,facility cleaning service,False,original
+F-002207,SUP-0010,INV-0010-002207,2024-01-06,791.55,TRY,PO-00825,BANK-0010-3,professional consulting hours,False,original
+F-003520,SUP-0015,INV-0015-003520,2024-01-06,1000.0,TRY,PO-00651,BANK-0015-1,software subscription renewal,False,original
+F-001370,SUP-0097,INV-0097-001370,2024-01-07,255.1,TRY,PO-00089,BANK-0097-6,professional consulting hours,False,original
+F-002046,SUP-0108,INV-0108-002046,2024-01-07,1148.93,TRY,PO-00275,BANK-0108-3,equipment preventive maintenance,False,original
+F-002134,SUP-0137,INV-0137-002134,2024-01-07,644.6,TRY,PO-00863,BANK-0137-4,facility cleaning service,False,original
+F-002189,SUP-0138,INV-0138-002189,2024-01-07,529.04,TRY,PO-00530,BANK-0138-5,facility cleaning service,False,original
+F-002559,SUP-0042,INV-0042-002559,2024-01-07,315.59,TRY,PO-00329,BANK-0042-0,packaging material purchase,False,original
+F-003024,SUP-0147,INV-0147-003024,2024-01-07,3128.05,TRY,,BANK-0147-0,software subscription renewal,False,original
+F-003118,SUP-0024,INV-0024-003118,2024-01-07,1128.0,TRY,PO-00776,BANK-0024-3,professional consulting hours,False,original
+F-000393,SUP-0135,INV-0135-000393,2024-01-08,1250.0,TRY,PO-00486,BANK-0135-2,cloud hosting monthly service,False,original
+F-000515,SUP-0059,INV-0059-000515,2024-01-08,3750.0,TRY,PO-00045,BANK-0059-3,packaging material purchase,False,original
+F-002814,SUP-0012,INV-0012-002814,2024-01-08,2267.32,TRY,PO-00829,BANK-0012-5,office supplies delivery,False,original
+F-000474,SUP-0062,INV-0062-000474,2024-01-09,3000.0,TRY,PO-00796,BANK-0062-6,freight and logistics service,False,original
+F-001616,SUP-0057,INV-0057-001616,2024-01-09,3219.89,TRY,PO-00355,BANK-0057-1,freight and logistics service,False,original
+F-001940,SUP-0011,INV-0011-001940,2024-01-09,1910.67,TRY,,BANK-0011-4,packaging material purchase,False,original
+F-002054,SUP-0115,INV-0115-002054,2024-01-09,925.35,TRY,PO-00836,BANK-0115-3,office supplies delivery,False,original
+F-002784,SUP-0130,INV-0130-002784,2024-01-09,2651.71,TRY,,BANK-0130-4,cloud hosting monthly service,False,original
+F-002905,SUP-0186,INV-0186-002905,2024-01-09,1210.9,TRY,PO-00306,BANK-0186-4,freight and logistics service,False,original
+F-003170,SUP-0017,INV-0017-003170,2024-01-09,5000.0,TRY,PO-00232,BANK-0017-3,professional consulting hours,False,original
+F-000131,SUP-0052,INV-0052-000131,2024-01-10,3230.75,TRY,,BANK-0052-3,cloud hosting monthly service,False,original
+F-001991,SUP-0000,INV-0000-001991,2024-01-10,2559.94,TRY,,BANK-0000-0,equipment preventive maintenance,False,original
+F-002613,SUP-0138,INV-0138-002613,2024-01-10,2000.0,TRY,,BANK-0138-5,equipment preventive maintenance,False,original
+F-002989,SUP-0115,INV-0115-002989,2024-01-10,380.61,TRY,PO-00571,BANK-0115-3,software subscription renewal,False,original
+F-001490,SUP-0145,INV-0145-001490,2024-01-11,4000.0,TRY,,BANK-0145-5,freight and logistics service,False,original
+F-002139,SUP-0054,INV-0054-002139,2024-01-11,4783.22,TRY,PO-00835,BANK-0054-5,packaging material purchase,False,original
+F-002199,SUP-0093,INV-0093-002199,2024-01-11,898.71,TRY,PO-00303,BANK-0093-2,cloud hosting monthly service,False,original
+F-000056,SUP-0142,INV-0142-000056,2024-01-12,418.27,TRY,PO-00586,BANK-0142-2,professional consulting hours,False,original
+F-000200,SUP-0110,INV-0110-000200,2024-01-12,367.25,TRY,PO-00080,BANK-0110-5,professional consulting hours,False,original
+F-000564,SUP-0138,INV-0138-000564,2024-01-12,4470.77,TRY,PO-00865,BANK-0138-5,software subscription renewal,False,original
+F-000770,SUP-0104,INV-0104-000770,2024-01-12,1203.69,TRY,,BANK-0104-6,facility cleaning service,False,original
+F-002343,SUP-0085,INV-0085-002343,2024-01-12,238.58,TRY,,BANK-0085-1,facility cleaning service,False,original
+F-000362,SUP-0060,INV-0060-000362,2024-01-13,1420.66,TRY,,BANK-0060-4,packaging material purchase,False,original
+F-000394,SUP-0087,INV-0087-000394,2024-01-13,5733.4,TRY,PO-00546,BANK-0087-3,cloud hosting monthly service,False,original
+F-000877,SUP-0094,INV-0094-000877,2024-01-13,1092.65,TRY,,BANK-0094-3,freight and logistics service,False,original
+F-001178,SUP-0131,INV-0131-001178,2024-01-13,2913.34,TRY,PO-00521,BANK-0131-5,professional consulting hours,False,original
+F-001339,SUP-0134,INV-0134-001339,2024-01-13,1000.0,TRY,PO-00854,BANK-0134-1,professional consulting hours,False,original
+F-001786,SUP-0007,INV-0007-001786,2024-01-13,584.68,TRY,PO-00084,BANK-0007-0,software subscription renewal,False,original
